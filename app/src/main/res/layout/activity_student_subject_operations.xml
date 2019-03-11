@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentSubjectOperations">
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/automata"
+        android:id="@+id/subject_logo"
+        android:layout_below="@+id/tool_bar"
+        android:layout_marginTop="20dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/subject_logo">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Automata theory"
+            android:layout_centerHorizontal="true"
+            android:textColor="#4DB6AC"
+            android:textSize="32sp"
+            android:id="@+id/subject_name"
+            android:layout_marginTop="60dp"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="Scan"
+            android:textColor="#FFFFFF"
+            android:layout_below="@id/subject_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:textSize="25sp"
+            android:id="@+id/btn_scan"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="Report"
+            android:textColor="#FFFFFF"
+            android:layout_below="@id/btn_scan"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
+            android:id="@+id/btn_report"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

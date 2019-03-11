@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "33654724030",
+    "firebase_url": "https://attendence-87aa2.firebaseio.com",
+    "project_id": "attendence-87aa2",
+    "storage_bucket": "attendence-87aa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33654724030:android:a67ed83b12942859",
+        "android_client_info": {
+          "package_name": "com.example.attendence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33654724030-29u6n6e6vqldu4r6epq7h86v5rjkbl33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.attendence",
+            "certificate_hash": "2101f2c0095a6a9288f70de990910f91a919d0ca"
+          }
+        },
+        {
+          "client_id": "33654724030-56gvldml9auejc6k89alnbpbqrcgqr7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqe7NN15pOKEXEoIOUuj9dCKzsRXBaReI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33654724030-56gvldml9auejc6k89alnbpbqrcgqr7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
