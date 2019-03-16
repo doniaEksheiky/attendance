@@ -26,23 +26,13 @@ public class Login extends AppCompatActivity {
                 openActivity();
             }
         });
-        button = (Button) findViewById(R.id.forgetPass);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openActivity2();
-            }
-        });
+
     }
     public void openActivity()
     {
         Intent intent =new Intent(this,SignUp.class);
         startActivity(intent);
     }
-    public void openActivity2()
-    {
-        Intent intent =new Intent(this,ForgetPassword.class);
-        startActivity(intent);
-    }
+
 }
 

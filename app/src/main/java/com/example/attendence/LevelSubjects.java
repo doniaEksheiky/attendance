@@ -17,7 +17,6 @@ public class LevelSubjects extends AppCompatActivity {
     private static final int NUM_COLUMNS = 1;
     ListView olistview;
 
-
     //vars
     private ArrayList<String> mNames = new ArrayList<>();
     private ArrayList<String> mImageUrls = new ArrayList<>();
